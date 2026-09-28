@@ -1,9 +1,9 @@
-python 
-def main():
-  print("Калькулятор геометрии")
-  print("В разработке...")
-  
-if __name__ == "__main__":
-  main()
+python
+from circle import Circle
+from rectangle import Rectangle
 
-Add main.py stub
+def main():
+ print("Калькулятор геометрии запущен")
+ print("Версия 1.0")
+if __name__ == "__main__":
+ main()
